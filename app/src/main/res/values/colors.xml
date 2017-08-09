@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#A4A4A4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="szk_lbl">#C0C0FF</color>
+    <color name="szk_txt">#FFFFC0</color>
+    <color name="accent">#FF4081</color>
+    <color name="tabBack">#FE2E64</color>
+    <color name="nomBack">#F2F2F2</color>
+    <color name="gray2">#E6E6E6</color>
+    <color name="green">#2E8B57</color>
+    <color name="yellow">#FFD700</color>
+    <color name="orange">#FFA500</color>
+</resources>

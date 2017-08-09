@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.administrator.koyom_clientf.MainActivity">
+
+    <!-- <android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay"/>-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                app:theme="@style/ToolbarTheme"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="5dp">
+
+            <LinearLayout
+                style="@style/LinearLayoutStyle">
+                <TextView
+                    android:id="@+id/title"
+                    android:text="No"
+                    style="@style/TextViewStyle2"
+                    android:layout_width="10dp"/>
+                <TextView
+                    android:id="@+id/syoriName"
+                    android:text="処理粉名"
+                    style="@style/TextViewStyle2"
+                    android:layout_width="160dp" />
+                <TextView
+                    android:id="@+id/jokyo"
+                    android:text="状況"
+                    style="@style/TextViewStyle2"
+                    android:layout_width="40dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/LinearLayoutStyle">
+                <TextView
+                    android:id="@+id/title8"
+                    android:text="F8"
+                    style="@style/TextViewStyle"/>
+                <TextView
+                    android:id="@+id/syoriName8"
+                    style="@style/TextViewStyle_White"/>
+                <TextView
+                    android:id="@+id/jokyo8"
+                    style="@style/TextViewStyle_White2"  />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/LinearLayoutStyle">
+                <TextView
+                    android:id="@+id/title9"
+                    android:text="F9"
+                    style="@style/TextViewStyle"/>
+                <TextView
+                    android:id="@+id/syoriName9"
+                    style="@style/TextViewStyle_White"/>
+                <TextView
+                    android:id="@+id/jokyo9"
+                    style="@style/TextViewStyle_White2"  />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/LinearLayoutStyle">
+                <TextView
+                    android:id="@+id/title10"
+                    android:text="F10"
+                    style="@style/TextViewStyle"/>
+                <TextView
+                    android:id="@+id/syoriName10"
+                    style="@style/TextViewStyle_White"/>
+                <TextView
+                    android:id="@+id/jokyo10"
+                    style="@style/TextViewStyle_White2"  />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/LinearLayoutStyle">
+                <TextView
+                    android:id="@+id/title11"
+                    android:text="F11"
+                    style="@style/TextViewStyle"/>
+                <TextView
+                    android:id="@+id/syoriName11"
+                    style="@style/TextViewStyle_White"/>
+                <TextView
+                    android:id="@+id/jokyo11"
+                    style="@style/TextViewStyle_White2"  />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/LinearLayoutStyle">
+                <TextView
+                    android:id="@+id/title12"
+                    android:text="F12"
+                    style="@style/TextViewStyle"/>
+                <TextView
+                    android:id="@+id/syoriName12"
+                    style="@style/TextViewStyle_White"/>
+                <TextView
+                    android:id="@+id/jokyo12"
+                    style="@style/TextViewStyle_White2"  />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/LinearLayoutStyle">
+                <TextView
+                    android:id="@+id/title13"
+                    android:text="F13"
+                    style="@style/TextViewStyle"/>
+                <TextView
+                    android:id="@+id/syoriName13"
+                    style="@style/TextViewStyle_White"/>
+                <TextView
+                    android:id="@+id/jokyo13"
+                    style="@style/TextViewStyle_White2"  />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/LinearLayoutStyle">
+                <TextView
+                    android:id="@+id/title14"
+                    android:text="F14"
+                    style="@style/TextViewStyle"/>
+                <TextView
+                    android:id="@+id/syoriName14"
+                    style="@style/TextViewStyle_White"/>
+                <TextView
+                    android:id="@+id/jokyo14"
+                    style="@style/TextViewStyle_White2"  />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/LinearLayoutStyle">
+                <TextView
+                    android:id="@+id/title15"
+                    android:text="F15"
+                    style="@style/TextViewStyle"/>
+                <TextView
+                    android:id="@+id/syoriName15"
+                    style="@style/TextViewStyle_White"/>
+                <TextView
+                    android:id="@+id/jokyo15"
+                    style="@style/TextViewStyle_White2"  />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/LinearLayoutStyle">
+                <TextView
+                    android:id="@+id/title16"
+                    android:text="F16"
+                    style="@style/TextViewStyle"/>
+                <TextView
+                    android:id="@+id/syoriName16"
+                    style="@style/TextViewStyle_White"/>
+                <TextView
+                    android:id="@+id/jokyo16"
+                    style="@style/TextViewStyle_White2"  />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/LinearLayoutStyle">
+                <TextView
+                    android:id="@+id/title17"
+                    android:text="F17"
+                    style="@style/TextViewStyle"/>
+                <TextView
+                    android:id="@+id/syoriName17"
+                    style="@style/TextViewStyle_White"/>
+                <TextView
+                    android:id="@+id/jokyo17"
+                    style="@style/TextViewStyle_White2"  />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/show"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#ffff"
+                android:gravity="center_vertical"
+                android:textColor="#FF0000"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnClear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="クリア"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/btnUpd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="登録"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
