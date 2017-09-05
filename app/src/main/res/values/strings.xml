@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">KoyoM_ClientF</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">設定</string>
+    <string name="action_finish">終了</string>
     <string name="ok">OK</string>
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>

@@ -119,7 +119,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String[] info = excmd.split(",");
             //粉砕機状況を表示
             setFunsaiJokyo(info);
-
             //サーバー接続状況をtrueに
             mConnectionStatus = true;
         }
@@ -337,6 +336,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             int requestCode = SETTING;
             startActivityForResult(intent, requestCode);
             return true;
+        }
+        else if (id == R.id.action_finish) {
+            //Dialog(OK,Cancel Ver.)
+            new AlertDialog.Builder(this)
+                    .setTitle("確認")
+                    .setMessage("終了してもよろしいですか？")
+                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            // OK button pressed
+                            finishAndRemoveTask();
+                        }
+                    })
+                    .setNegativeButton("Cancel", null)
+                    .show();
         }
         return super.onOptionsItemSelected(item);
     }
